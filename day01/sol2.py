@@ -7,7 +7,7 @@ with open("input.txt") as f:
         dir = line[0]
         val = int(line[1:])
 
-        for _ in range(val):
+        for v in range(val):
             if dir == "L":
                 pos = (pos-1) % 100
             else: 
