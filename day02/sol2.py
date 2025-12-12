@@ -16,7 +16,5 @@ with open("input.txt") as f:
                         if new_s == s:
                             invalid_ids += int(s)   
                             break
-                else:
-                    pass
 
 print(invalid_ids)
