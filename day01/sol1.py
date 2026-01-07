@@ -10,7 +10,6 @@ with open("input.txt") as f:
             pos = (pos-val) % 100
         else: 
             pos = (pos+val) % 100
-
         if pos == 0:
             count_zero += 1
 

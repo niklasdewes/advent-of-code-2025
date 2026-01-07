@@ -21,7 +21,6 @@ with open("input.txt") as f:
                                 if l_s == r_s:
                                     invalid_ids += int(s)   
                                     break
-
                 else:
                     pass
 
